@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="regression">
+    <test name="regression Day9" parallel="classes" thread-count="5">
+        <classes>
+        <class name="Day9.c2_SmartBearPractice"></class>
+            <class name="Day5.c1_TestNG"></class>
+            <class name="Day4.c1_ImplicitlyWait"></class>
+            <!--what is this,all classes run at the same time rather than one by one like smoke-->
+
+        </classes>
+    </test>
+ </suite>
